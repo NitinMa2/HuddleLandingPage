@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	width: 100%;
+	min-height: 400px;
+}
+
+.navbar {
+	padding: 50px;
+}
+
+.sec1, .sec3, .sec5 {
+	position: relative;]
+}
+
+.sec1:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 150px;
+	background: url(../images/bg-section-top-desktop-1.svg);
+	background-size: cover;
+}
+
+.blue {
+	background: hsl(207, 100%, 98%);
+}
+
+.cyan {
+	background: hsl(192, 100%, 9%);
+}
+
+.sec3:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 150px;
+	background: url(../images/bg-section-bottom-desktop-1.svg);
+	background-size: cover;
+}
+
+.sec3:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 150px;
+	background: url(../images/bg-section-top-desktop-2.svg);
+	background-size: cover;
+}
+
+.sec5:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 150px;
+	background: url(../images/bg-section-bottom-desktop-2.svg);
+	background-size: cover;
+}
+
+.sec5:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 150px;
+	background: url(../images/bg-footer-top-desktop.svg);
+	background-size: cover;
+}
+
+.btn-default {
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: hsl(322, 100%, 66%);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid hsl(322, 100%, 66%);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-default:hover {
+  color: #FFF;
+  background: hsl(322, 100%, 66%);
+  border: 2px solid hsl(322, 100%, 66%);
+}
+
+.fill {
+  color: #FFF;
+  background: hsl(322, 100%, 66%);
+  box-shadow: 5px 5px 20px #888888;
+}
+
+.center {
+	text-align: center;
+}
