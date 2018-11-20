@@ -23,7 +23,7 @@ section {
 	left: 0;
 	width: 100%;
 	height: 150px;
-	background: url(../images/bg-section-top-desktop-1.svg);
+	background: url(./images/bg-section-top-desktop-1.svg);
 	background-size: cover;
 }
 
@@ -42,7 +42,7 @@ section {
 	left: 0;
 	width: 100%;
 	height: 150px;
-	background: url(../images/bg-section-bottom-desktop-1.svg);
+	background: url(./images/bg-section-bottom-desktop-1.svg);
 	background-size: cover;
 }
 
@@ -53,7 +53,7 @@ section {
 	left: 0;
 	width: 100%;
 	height: 150px;
-	background: url(../images/bg-section-top-desktop-2.svg);
+	background: url(./images/bg-section-top-desktop-2.svg);
 	background-size: cover;
 }
 
@@ -64,7 +64,7 @@ section {
 	left: 0;
 	width: 100%;
 	height: 150px;
-	background: url(../images/bg-section-bottom-desktop-2.svg);
+	background: url(./images/bg-section-bottom-desktop-2.svg);
 	background-size: cover;
 }
 
@@ -75,7 +75,7 @@ section {
 	left: 0;
 	width: 100%;
 	height: 150px;
-	background: url(../images/bg-footer-top-desktop.svg);
+	background: url(./images/bg-footer-top-desktop.svg);
 	background-size: cover;
 }
 
