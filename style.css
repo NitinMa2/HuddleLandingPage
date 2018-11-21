@@ -8,6 +8,13 @@ section {
 	min-height: 400px;
 }
 
+p, h3 , i{
+	color: white;
+}
+
+#footer ul {  font-size:30px;}
+#footer ul li {display:inline-block; cursor: pointer; padding-right: 15px;}
+
 .navbar {
 	padding: 50px;
 }

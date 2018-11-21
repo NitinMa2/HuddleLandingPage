@@ -16,6 +16,8 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -93,13 +95,13 @@
       <div class="row">
 
         <!-- Sec Text -->
-        <div class="col" style="display: flex; flex-wrap: wrap; margin: auto;">
+        <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12" style="display: flex; flex-wrap: wrap; margin: auto;">
           <h1 class="heading">Grow Together</h1>
           <h6 class="text">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form. </h6>
         </div>
 
         <!-- Illustration -->
-        <div class="col center">
+        <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12 center">
           <img src="./images/illustration-grow-together.svg" width="80%">
         </div>
 
@@ -115,12 +117,12 @@
       <div class="row">
 
         <!-- Illustration -->
-        <div class="col center">
+        <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12 center">
           <img src="./images/illustration-flowing-conversation.svg" width="80%">
         </div>
 
         <!-- Sec Text -->
-        <div class="col" style="display: flex; flex-wrap: wrap; margin: auto;">
+        <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12" style="display: flex; flex-wrap: wrap; margin: auto;">
           <h1 class="heading">Flowing Conversation</h1>
           <h6 class="text">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</h6>
         </div>
@@ -138,13 +140,13 @@
       <div class="row">
 
         <!-- Sec Text -->
-        <div class="col" style="display: flex; flex-wrap: wrap; margin: auto;">
+        <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12" style="display: flex; flex-wrap: wrap; margin: auto;">
           <h1 class="heading">Your Users</h1>
           <h6 class="text"> It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</h6>
         </div>
 
         <!-- Illustration -->
-        <div class="col center">
+        <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12 center">
           <img src="./images/illustration-your-users.svg" width="80%">
         </div>
 
@@ -169,27 +171,52 @@
     </div>
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br>
-
   </section>
 
-  <section class="cyan"></section>
+  <section class="cyan"><br>
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-  vestibulum a, ultrices quis sem.
-  
-  Phone: +1-543-123-4567
-  example@huddle.com
+    <br><br>
 
-  Newsletter
-  To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-  send you spam or pass on your email address
+    <div class="container">
+      <div class="row">
 
-  Subscribe
+        <!-- Left Column -->
+        <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12" col-12>
+          <img src="./images/logo-invert.png" style="width: 60%">
+          <p class="text" style="width: 70%">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</p>
+          <p>
+            <i class="fas fa-phone-volume"></i> Phone: +1-543-123-4567<br><br>
+            <i class="fas fa-envelope"></i> example@huddle.com
+          </p>
 
-  <footer>
-    <p class="attribution">
-      This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-    </p>
-  </footer>
+          <br><br>
+          <div id="footer">
+            <ul>
+              <li><i class="fab fa-facebook"></i></li>
+              <li><i class="fab fa-instagram"></i></li>
+              <li><i class="fab fa-twitter-square"></i></li>
+            </ul>
+          </div>
+          <br><br>
+
+        </div>
+
+        <!-- Right Column -->
+        <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+          <h3 class="heading" style="font-size: 1.6em">Newsletter</h3>
+          <p class="text" style="width: 70%">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+          send you spam or pass on your email address</p>   
+          <form class="form-inline">
+            <div class="form-group mx-sm-3 mb-2">
+              <label for="staticEmail2" class="sr-only">Email</label>
+              <input type="email" class="form-control" id="staticEmail2" placeholder="Email">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2" style="background-color: hsl(322, 100%, 66%)">Subscribe</button>
+          </form>   
+        </div>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
