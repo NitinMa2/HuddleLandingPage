@@ -4,72 +4,115 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   
   <title>Frontend Mentor | Huddle landing page with alternating sections</title>
 
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+
   <section class="sec1">
 
+    <!-- Navbar -->
     <nav class="navbar">
       <a class="navbar-brand">
         <img src="./images/logo.svg" width="170" height="30">
       </a>
       <span class="navbar-text">
-        <button type="button" class="btn btn-default">Try it free</button>
+        <button type="button" class="btn btn-default text">Try it Free</button>
       </span>
     </nav>
 
     <br>
 
+    <!-- Content -->
     <div class="center">
-      <h1>Build The Community Your Fans Will Love</h1>
-      <h6>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. </h6>
+
+      <!-- Main Text -->
+      <div class="container">
+        <h1 class="heading">Build The Community Your Fans Will Love</h1>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col col-12 col-sm-10 col-md-9 col-lg-7 col-xl-6" style="text-align: center;">
+            <h6 class="text">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. </h6>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+
       <br><br>
-      <button type="button" class="btn btn-default fill">Get Started For Free</button>
+
+      <button type="button" class="btn btn-default fill text" style="min-width: 20%; min-height: 50px; font-size: 15px">Get Started For Free</button>
+
       <br><br><br>
+
+      <!-- Screen Mockups Img -->
       <div>
         <img src="./images/screen-mockups.svg" width="70%">
-        
+      </div>
+
         <br><br><br><br><br>
 
-        <div style="width: 50%; height: 50%;float:left;">
-          <img src="./images/icon-communities.svg" width="30px">
-          <h1>1.4k</h1>
-          <h6>Communities Formed</h6>
-        </div style="width: 50%; height: 50%;float:right;">
-          <img src="./images/icon-messages.svg" width="30px">
-          <h1>2.7m</h1>
-          <h6>Messages Sent</h6>
-          <br><br><br><br><br><br><br><br><br>
-        <div>
-          
+        <!-- Data -->
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="./images/icon-communities.svg" width="8%">
+              <h1 class="heading" style="font-size: 70px">1.4k+</h1>
+              <h6 class="text" style="color: grey">Communities Formed</h6>
+            </div>
+            <div class="col">
+              <img src="./images/icon-messages.svg" width="8%">
+              <h1 class="heading" style="font-size: 70px">2.7m+</h1>
+              <h6 class="text" style="color: grey">Messages Sent</h6>
+              <br><br><br><br><br><br><br><br><br>
+            </div>   
+          </div>       
         </div>
+    </div>
+  </section>
+
+  <section class="blue">
+
+    <br><br><br><br>
+
+    <div class="container">
+      <div class="row">
+
+        <!-- Sec Text -->
+        <div class="col" style="display: flex; flex-wrap: wrap; margin: auto;">
+          <h1 class="heading">Grow Together</h1>
+          <h6 class="text">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form. </h6>
+        </div>
+
+        <!-- Illustration -->
+        <div class="col center">
+          <img src="./images/illustration-grow-together.svg" width="80%">
+        </div>
+
       </div>
     </div>
   </section>
-  <section class="blue">
-    <br><br><br><br>
-    <div style="padding-left:200px; width: 50%; height: 50%;float:left;">
-      <h1>Grow Together</h1>
-      <h6>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form. </h6>
-    </div>
-    <div class="center" style="width: 50%; height: 50%;float:right;">
-    <img src="./images/illustration-grow-together.svg" width="50%">
-    </div>
-  </section>
+
   <section class="sec3"></section>
+
   <section class="blue"></section>
+
   <section class="sec5"></section>
+
   <section class="cyan"></section>
  
 
